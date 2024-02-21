@@ -1,4 +1,13 @@
 module.exports = {
+    title: 'TypeScript4 文档',
+    description: 'TypeScript4 最新官方文档翻译',
+    base: '/notebook/',
+    theme: 'reco',
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
     themeConfig: {
         nav: [{ text: '首页', link: '/' }],
         theme: 'reco',
